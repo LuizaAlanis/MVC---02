@@ -1,0 +1,89 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> O que é MVC? </title>
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#1">Introdução</a></li>
+            <li><a href="#2">Model</a></li>
+            <li><a href="#3">View</a></li>
+            <li><a href="#4">Controller</a></li>
+            <li><a href="#5">Conclusão</a></li>
+        </ul>
+    </nav>
+    <p id="1"></p>
+    <div id="container1">
+        <h3> O que eu entendi sobre programação MVC </h3>
+        <i> By Luiza Alanis </i> <br><br><br>
+        <h2> Introdução </h2> <br>
+        <p>
+            Compreendo MVC como um padrão de arquitetura de software
+            cujo a finalidade é estruturar o programa em três camadas
+            denominadas Model, View e Controller. Uma das principais
+            vantagens dessa alternativa é o fato de não depender da
+            moral do programador para desenvolver um programa de forma
+            organizada, com MVC, se as coisas não estiverem armazenadas
+            em seus devidos lugares, ele simplesmente não funciona.
+        </p>
+    </div>
+    <p id="2"></p>
+    <div id="container2">
+        <h2> Model </h2> <br>
+        <p>
+            O model é um dos três piláres do MVC e consiste nas regras
+            de negócio do cliente, isto é, ele basicamente dita como deve
+            ser o comportamento do sistema, exemplo, se um usuário deseja
+            efetuar um login e o model diz que só faz o login aquele quem
+            possui uma conta, assim será. O model que vai receber os dados do Controller
+            para verificar e conceder ou não a permissão.
+        </p>
+    </div>
+    <p id="3"></p>
+    <div id="container3">
+        <h2> View </h2> <br>
+        <p>
+            A View está diretamente ligada ao usuário final
+            ela que vai receber os dados a principio e que
+            vai apresentar o resultado da ação. Resumindo, na
+            View nós temos toda a parte visual do sistema, isso
+            inclui textos ou labels, inputs, buttons e oque mais
+            for possivel criar com html, css, frameworks como bootstrap
+            js e afins. As Views no momento que são criadas no VS já
+            podem vir com um template pronto ou não, a escolha é sua.
+        </p>
+    </div>
+    <p id="4"></p>
+    <div id="container4">
+        <h2> Controller </h2> <br>
+        <p>
+            O Controller por sua vez é a ponte entre a View
+            ("a tela do usuário") e o model ("Quem dita as regras"),
+            o Controller sempre terá o sufixo "Controller" e usará o
+            método ActionResult para exibir as Views, que ínclusive,
+            são criadas no próprio Controller clicando no botão direito
+            do mouse e selecionando a opção "Add View" (Isso no visual
+            Studio com ASP.NET(Framework)).
+        </p>
+    </div>
+    <p id="5"></p>
+    <div id="container5">
+        <h2> Conclusão </h2> <br>
+        <p>
+            MVC é uma alternativa muito intessante para as empresas
+            pois garante a organização dos arquivos do projeto, o
+            padrão MVC também é benéfico para os programadores pois se
+            futuramente houver a necessidade de fazer uma manutenção
+            esse serviço vai ser muito mais fácil pois você sabe onde
+            as coisas estão, diferentemente de um programa cujo possua
+            seus inúmeros códigos no mesmo arquivo.
+        </p>
+    </div>
+</body>
+</html>
