@@ -1,6 +1,6 @@
 <h1> M V C </h1>
 <i> Aplicação n° 2 </i>
-<br>
+<br> <br>
 <img src="https://github.com/LuizaAlanis/MVC-02/blob/master/capa.png"/>
 <h2> Oque foi feito? </h2>
 <ul>
